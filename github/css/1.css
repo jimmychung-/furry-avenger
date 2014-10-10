@@ -1,0 +1,56 @@
+* {padding: 0;margin: 0;font: 15px/20px "microsoft yahei",Helvetica,Arial,"宋体",sans-serif}
+		a{text-decoration: none;color: black;}
+		a:hover{color:#aaa;}
+		ul{list-style-type: none;}
+	body{background: url(../images/DSC0447111.jpg) no-repeat scroll 0% 0%;}
+	img{border:none;cursor: pointer;}
+	#main{width: 1000px;min-height: 1270px;max-height: 3000px;margin: 0 auto;position: relative;padding-bottom: 50px;}
+	#main #nav{width:1000px;height: 60px;position: fixed;background: white;z-index: 100;border-top-left-radius: 15px;border-top-right-radius: 15px;opacity: 1; }
+	#main #nav a img{padding-left: 60px;border: none;float: left;}
+	#main #nav ul#navLeftSide{float: left;}
+	#main #nav ul#navLeftSide li {float: left;font-size: 16px;padding: 20px;line-height: 30px;}
+	#main #nav ul#navRightSide {float: right;}
+	#main #nav ul#navRightSide li{float: left;}
+	#main #nav ul#navRightSide li input{width: 200px;height:30px;padding-left:15px;font-size:16px;border-radius: 15px;border: 1px solid #999;margin: 15px 0px;outline: none;color: #ccc;}
+	/*outline用于去除文本框的外边缘*/
+	#main #nav ul#navRightSide li img{margin:15px;padding: 0;}
+	/*效果css*/
+	.shadow {box-shadow: -1px 3px 3px #555;}
+	.raduis {border-top-left-radius: 15px;border-top-right-radius: 15px;}
+	.block{display: block;}
+	.none {display: none;}
+	.nomargin {margin: 0px;padding: 0px;}
+	.leftside{margin-left: 40px;}
+	.margintop40{margin-top: 40px;}
+	.dispearUlLi{ float: left; margin: 10px 20px;	}
+	.rotateh {background: url(../images/rotate-hover.png) 0px 6px no-repeat;}
+
+.detialPicDivImg{position: fixed;left: 30%;top: 30%;background-color: white;z-index: 100;}
+.mask{position:fixed;z-index: 120;background:url(../images/DSC0447111.jpg);opacity: 1;left: 0px;height: 0px;}
+
+	#main #banner{height: 400px;margin-top: 60px;position: relative;overflow: hidden;}/*因为nav是fix的，如果这里用margin，那么nav会在内容区上*/
+	#main #banner ul.bannerPic {width:3000px;position: absolute;left: 0px;top: :0px;z-index: 1;}
+	#main #banner ul.bannerPic li{float: left;}
+	#main #banner span.left {width :41px;height: 68px;background: url(../images/icon-slides.png) 0px 0px;position: absolute;top: 45%;left: 0; z-index: 2}
+	#main #banner span.left:hover{background: url(../images/icon-slides.png) -82px 0px;}
+	#main #banner span.right {width :41px;height: 68px;background: url(../images/icon-slides.png) -42px 0px;position: absolute;top: 45%;right: 0;z-index: 2;	 }
+	#main #banner span.right:hover{background: url(../images/icon-slides.png) -125px 0px;}
+	#main  ul.bannerRotate	{position: absolute;top: 28%;left:46%;z-index: 10;overflow: hidden;}
+	#main  ul.bannerRotate li{float: left;margin-left: 10px;}
+	#main ul.bannerRotate li span.rotate:hover {background: url(../images/rotate-hover.png) 0px 5px no-repeat;}
+
+
+
+
+	#main #content{min-height: 480px;max-height:1500px;background: white;}
+	/*#main #content ul {padding-top: 10px;}*/
+	#main #content ul.contentUl li {float: left;margin: 20px;overflow: hidden;width: 280px;height: 186px;margin-top: 30px;	}
+	#main #content ul.contentUl li.leftside{margin-left: 40px;}
+	.disapear{background: #eee;height: 1px;float:left;width: 100%;}
+/*	#main #footer{height: 30px;}
+	#main #footer p {line-height: 30px;text-align: center;border-top: 1px dotted #aaa;border-bottom: 1px solid #aaa;font-size: 12px;color:#999;opacity: 0.1;background: white;}
+
+*/
+	#footer {background-color: #fff;width: 100%;border-bottom-left-radius: 15px;border-bottom-right-radius:15px; }
+	div#footer p {opacity: 1;text-align: center;padding-left: 15;line-height: 60px;margin-bottom: 60px;}
+

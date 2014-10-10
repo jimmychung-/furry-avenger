@@ -1,0 +1,35 @@
+* {padding: 0;margin: 0;font: 15px/20px "microsoft yahei",Helvetica,Arial,"宋体",sans-serif}
+		a{text-decoration: none;color: black;}
+		a:hover{color:#aaa;}
+		ul{list-style-type: none;}
+	body{background: url(../images/DSC0447111.jpg) no-repeat scroll 0% 0%;}
+	img{border:none;cursor: pointer;}
+	#main{width: 1000px;min-height: 950px;max-height: 3000px;margin: 60px auto;position: relative;padding-bottom: 50px;border-bottom-left-radius: 15px;border-bottom-right-radius:15px; }
+	#main #nav{width:1000px;height: 60px;position: fixed;background: white;z-index: 100;border-top-left-radius: 15px;border-top-right-radius: 15px;opacity: 1; }
+	#main #nav a img{padding-left: 60px;border: none;float: left;}
+	#main #nav ul#navLeftSide{float: left;}
+	#main #nav ul#navLeftSide li {float: left;font-size: 16px;padding: 20px;line-height: 30px;}
+	#main #nav ul#navRightSide {float: right;}
+	#main #nav ul#navRightSide li{float: left;}
+	#main #nav ul#navRightSide li input{width: 200px;height:30px;padding-left:15px;font-size:16px;border-radius: 15px;border: 1px solid #999;margin: 15px 0px;outline: none;color: #ccc;}
+	/*outline用于去除文本框的外边缘*/
+	#main #nav ul#navRightSide li img{margin:15px;padding: 0;}
+	#main #content {height: 800px;background: #eee;border-top-left-radius: 15px;border-top-right-radius:15px;}
+	#main #content #presentation{height: 700px;background-color: #ddd;border-top-left-radius: 15px;border-top-right-radius:15px; }
+	#main #content #presentation p {height: 40px;font-size: 15px;padding: 8px 0 9px 40px;}
+	#main #content #presentation p.padding-top{padding-top: 85px;padding-left: 40px;font-size: 30px;}
+	#main #content #presentation p.padding-top b {color: rgb(145,169,121);font-size: 35px;}
+	#main #content #presentation p.detialClick{color:rgb(145,169,121);}
+	#main #content #presentation strong{color: rgb(234,86,74);font-size: 30px;}
+	#main #content #socialContact {border-bottom-left-radius: 15px;border-bottom-right-radius: 15px;}
+	#main #content #socialContact li {float: left;width: 22%;border-left:1px solid #aaa;margin: 3% 1%; }
+
+	a#first{background: url(../images/follow-icon.png) 0px 0px;width: 40px;height: 40px;display: block;margin-left:45%;float: left;}
+	a#second{background: url(../images/follow-icon.png) 0px -150px;width: 40px;height: 40px;display: block;margin-left:45%;float: left;}
+	a#third{background: url(../images/follow-icon.png) 0px -250px;width: 40px;height: 40px;display: block;margin-left:45%;float: left;}
+	a#fourth{background: url(../images/follow-icon.png) 0px -400px;width: 40px;height: 40px;display: block;margin-left:45%;float: left;}
+	#main #content #socialContact li.leftside{border-left: none;}
+
+	p.socialInfo{font-size: 15px;float: left;line-height: 40px;padding-left: 20px;opacity: 0;}
+	div#footer {width: 100%;background-color: white;height: 60px;border-bottom-left-radius: 15px;border-bottom-right-radius:15px;}
+	div#footer p {opacity: 1;text-align: center;line-height: 60px; }

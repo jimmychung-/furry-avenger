@@ -1,0 +1,55 @@
+
+
+/*缺省*/
+	* {padding: 0;margin: 0;font:15px/20px "microsoft yahei",Helvetica,Arial,"宋体",sans-serif}
+	a{text-decoration: none;color: black;}
+	a:hover{color:#aaa;}
+	ul{list-style-type: none;}
+	body{background: url(../images/DSC0447111.jpg) ;background-attachment:fixed;}
+	/*img{border:none;}*/
+	.absolute{position: absolute;}
+
+
+
+
+@media (min-width: 500px){
+
+	/*nav*/
+	#jimmychung {width: 250px;height: 93.75px;left: 32%;top: 30%;position: absolute;margin-left:72px; z-index: 0;}
+	#main{width: 70%;margin: 0 auto;background: transparent;position: relative;}
+	#main #nav {border-bottom: 2px solid #ccc ;height: 60px;margin-top: 5%;border-top-left-radius: 15px;border-top-right-radius: 15px;background: white;}
+	#main #nav ul li {float: left;width: 25%;font-size: 1.3em;line-height: 60px;text-align: center;}
+	li.leftSide {margin-left: 25%;}
+
+	/*content*/
+	#content {position: relative;height: 100%}
+	#content img{float: left;width: 90%;padding: 5%;margin:3% 0;border: 1px solid #eee;background-color: white;}
+	/*效果css*/
+	.hide{opacity: 1;}
+	.threeCol {width: 30%;height: 100%;margin: 1.5%;float: left; }
+	#footer {background-color: #fff;width: 100%;border-bottom-left-radius: 15px;border-bottom-right-radius:15px; }
+	div#footer p {opacity: 1;text-align: center;padding-left: 15;line-height: 60px;margin-bottom: 60px;}
+
+
+
+}
+
+@media (max-width: 500px){ 
+	#main {width: 100%;}
+	/*nav*/
+	#main #nav{width: 100%;height: 20%;background: #fff;}
+	#jimmychung {padding: 0 12%;width: 100%;position: static;}
+	#main #nav ul li {padding: 3% 40%;border: 1px solid #eee;}
+	/*content*/
+	#main #content {height: 100%;background-color: #aaa;}
+	#content img{float: left;width: 90%;padding: 5%;margin:3% 0;border: 1px solid #eee;background-color: white;}
+	.singalCol{width: 100%;}
+	li.smallfont a{font-size: 0.93em;}
+	#footer {background-color: #fff;width: 100%;}
+	p{text-align: center;line-height: 30px;padding-bottom: 10px;}
+	b{display: none;}
+
+}	
+
+
+
